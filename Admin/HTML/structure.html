@@ -78,7 +78,149 @@
            <div>
                
            </div>
-        </div>    
-    </section>
+        </div>
+        <div>
+          title>manage subject</title>
+  <link rel="stylesheet"type="text/css" href="manage subject.css"/>
+</head>
+
+<body>
+
+      <h1 style="margin-left:5px; margin-top: 5px;font-size:30px;">Manage Subjects</h1>
+              
+          
+          <form action="/add_subject/">
+            <input type="button" name="+add_subject" value="+Add Subject"/>
+          </form>
+             <br/>&nbsp;
+                          <table cellpadding="20px">
+                            <tr>
+                              <th>Subject Details</th>
+                              <th>
+                                <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
+                              </th>
+                            </table>
+                        <br/>
+                        
+                            <table border=1 cellpadding="2px" >
+                            <thead>
+                                <tr>
+                                <th>ID</th>
+                                <th>Subject Name</th>
+                                <th>Course</th>
+                                <th>Staff</th>
+                                <th>Created At</th>
+                                <th>Updated At</th>
+                                <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                </tbody>
+                            </table>
+                        </body>
+                        </div> 
+                        <div>
+<title>add subject</title>
+  <link rel="stylesheet"type="text/css" href="add subject.css"/>
+
+  </head>
+
+<body>
+              
+        
+        
+                        <h1 class="card-title">Add Subject</h1>
+                    
+<table>
+                <tr>
+                  <th>Add Subject</th>
+              </table>
+<br/>
+
+
+                    <form role="form" method="POST" action="/add_subject_save/">
+                        <input type="hidden" name="csrfmiddlewaretoken" value="INXN8FujdN0ZcivjB8S4mNk0inBMl8IjNpsvqEBQ5wIGinjtUAbGUwmzTFEcr6fT">
+
+                        
+                                
+                                
+                            
+
+                       <span>
+                                <label>Subject Name </label>
+                                <br/>
+                                <input type="text" class="form-control" name="subject" size="20" placeholder="Enter Subject">
+                            
+<br/>
+                            <div class="form-group">
+                                <label>Course </label>
+                                <br/>
+                                <select class="form-control" name="course">
+                                    
+                                        <option value="40">test</option>
+                                    
+                                        <option value="41">AI</option>
+                                    
+                                        <option value="42">Bca</option>
+                                    
+                                        <option value="43">Mca</option>
+                                    
+                                </select>
+                            </div>
+<br/>
+
+                            <div class="form-group">
+                                <label>Staff </label>
+                                <br/>
+                                <select class="form-control" name="staff">
+                                    
+                                        <option value="70">Sanjay Rai Gaur</option>
+                                    
+                                        <option value="71">Garima Garg</option>
+                                    
+                                        <option value="72">Suman Mishra</option>
+                                    
+                                        <option value="73">Ravi Krishan</option>
+                                    
+                                        <option value="74">Kriti Sanon</option>
+                                    
+                                        <option value="75">Shalini Jha</option>
+                                    
+                                        <option value="84">Rupali Yadav</option>
+                                    
+                                        <option value="85">Renu Gupta</option>
+                                    
+                                        <option value="86">Asha Jeswani</option>
+                                    
+                                        <option value="392">Aneesh Kumar M S</option>
+                                    
+                                        <option value="393">Pavel Str.</option>
+                                    
+                                        <option value="397">Manvi Gadhvi</option>
+                                    
+                                        <option value="403">Hagar seif</option>
+                                    
+                                        <option value="405">hhh hhkkk</option>
+                                    
+                                        <option value="408">Piya Mitu</option>
+                                    
+                                </select>
+                            </div>
+</span>
+                        </div>
+                        <br/>
+                        <br/>
+
+                        <div class="card-footer">
+                        <button type="submit" class="btn btn-primary" >Add Subject</button>
+                        </div>
+                    </form>
+                    </div>
+  
+
+
+</body>
+</div>  
+</section>
 </body>
 </html>
