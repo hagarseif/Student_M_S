@@ -1,0 +1,120 @@
+body .home .sction {
+    width: 100%;
+    height: auto;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+body .home .sction .title {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+body .home .sction .title h1 {
+    margin: auto;
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(78, 78, 78);
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+}
+
+body .home .sction .title a {
+    text-decoration: none;
+    font-size: large;
+    margin: auto;
+    margin-right: 20px;
+    color: rgb(35, 97, 231);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body .home .sction .contant {
+    width: auto;
+    height: auto;
+    margin: 10px 30px;
+    border-radius: 10px;
+
+    background-color: white;
+
+
+}
+
+body .home .sction a .btn1 {
+    margin: 10px 20px 20px;
+    padding: 10px 20px;
+    background-color: rgb(41, 136, 199);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(51, 157, 199);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+body .home .sction a .btn1 span::before {
+    content: "+";
+    margin-right: 3px;
+    font-size: 20px;
+}
+
+
+
+
+body .home .sction .contant .section1 {
+    width: 1150px;
+    height: 50%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(177, 174, 174);
+}
+
+body .home .sction .contant .section1 p {
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    margin: 10px 20px;
+    color: rgb(90, 89, 89);
+}
+
+body .home .sction .contant .section1 .search {
+    display: flex;
+    margin: 10px 20px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+body .home .sction .contant .section1 .search input {
+    border: none;
+    background-color: transparent;
+
+}
+
+body .home .sction .contant .section1 .search button {
+    width: 35px;
+    border: none;
+    height: 100%;
+}
+
+body .home .sction .contant .sction2 {
+    width: 1150px;
+    overflow:auto;
+    display: flex;
+    border: 2px solid rgb(177, 174, 174);
+    border-radius: 5px;
+    
+}
+
+body .home .sction .contant .sction2 h4 {
+    margin: 0px 10px;
+    padding: 10px;
+    display: inline;
+
+    
+}

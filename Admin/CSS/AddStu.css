@@ -1,0 +1,140 @@
+body .home .sction{
+    width: 100%;
+    height: auto;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+body .home .sction .title{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+body .home .sction .title h1{
+    margin: auto;
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(78, 78, 78);
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+}
+
+body .home .sction .title a{
+    text-decoration: none;
+    font-size: large;
+    margin: auto;
+    margin-right: 20px;
+    color: rgb(35, 97, 231);
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+body .home .sction .contant{
+    width: 100%;
+    height: auto;
+    margin: 10px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+body .home .sction .contant .btn1{
+    margin: 20px 0px;
+    padding: 10px 20px;
+    background-color: rgb(41, 136, 199);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(51, 157, 199);
+}
+
+
+body .home .sction .contant .pra{
+    background-color: rgb(44, 127, 236);
+    height:auto;
+    width: 100%;
+    padding: 5px 0px;
+    border-radius:  10px 10px 0px 0px;
+}
+
+body .home .sction .contant .pra p{
+    font-size: 20px;
+    margin: 0px 20px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+}
+
+body .home .sction .contant .table{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    
+    
+}
+
+body .home .sction .contant .table h4{
+    margin:  20px ;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+body .home .sction .contant .table input{
+    width: 95%;
+    margin: 0px 20px;
+    padding: 10px 0px;
+    border: .5px solid rgba(120, 183, 241, 0.712);
+    border-radius: 5px;
+}
+
+body .home .sction .contant .table select{
+    width: 95%;
+    margin: 0px 20px;
+    padding: 10px 0px;
+    border: .5px solid rgba(120, 183, 241, 0.712);
+    border-radius: 5px;
+}
+
+body .home .sction .contant .table .input{
+    display: flex;
+    width: 95%;
+    margin: 0px 50px 18px 18px;
+    padding: 0px 0px;
+    border: .5px solid rgba(120, 183, 241, 0.712);
+    border-radius: 5px;
+}
+
+body .home .sction .contant .table .input button{
+    padding: 5px 10px;
+    box-shadow: none;
+    background-color: rgb(175, 173, 170);
+    border-radius: 3px;
+    display: inline;
+}
+
+body .home .sction .contant .table .input p{
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
