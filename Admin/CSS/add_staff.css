@@ -40,10 +40,11 @@
     -o-border-radius: 5px;
     border: 1px solid rgb(218, 216, 216);
     font-family: roboto;
+    font-size: 15px;
 }
 .home .statistics .stu_result form label{
     margin-top: 15px;
-    display: block;
+    display: inline-block;
     font-family: roboto;
 }
 .home .statistics .stu_result form input[type="submit"]{
@@ -54,4 +55,9 @@
     color: #FFF;
     width: 120px;
     font-size: 17px;
+}
+.home .statistics .stu_result form input[type="radio"]{
+    display: inline;
+    width: 20px;
+   
 }

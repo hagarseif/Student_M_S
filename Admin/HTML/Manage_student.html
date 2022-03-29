@@ -27,7 +27,7 @@
         href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800&family=Signika+Negative:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../../fontawesome-free-6.0.0-web/css/all.css">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/structure.css">
     <link rel="stylesheet" href="../CSS/Manage_student.css">
 </head>
 
@@ -86,55 +86,33 @@
             <h4>Student Management System | Admin Dashboard</h4>
             <i class="fas fa-cog"></i>
         </div>
-        <div class="sction">
-            <div class="title">
-                <h1>Manage Student</h1>
-                <a href="../HTML/index.html"> Home</a>
+        <div class="statistics"> 
+            <div class="manage">
+             <h2>Manage Student</h2>
+             <a href="add_staff.html">+Add Student</a>         
             </div>
-            <a href="#"><button class="btn1"> <span>Add Student</span> </button></a>
-
-            <div class="contant">
-
-                <div class="section1">
-                    <p>Student Details</p>
-                    <div class="search">
-                        <input type="text" placeholder="search">
-
-                        <button>
-                            <a href="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-search" viewBox="0 0 16 16">
-                                    <path
-                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                                </svg>
-                            </a>
-
-                        </button>
-
-
-                    </div>
-                </div>
-
-                <div class="sction2">
-                    <h4>ID</h4>
-                    <h4>FirstName</h4>
-                    <h4>LastName</h4>
-                    <h4>UserName</h4>
-                    <h4>Email</h4>
-                    <h4>Address</h4>
-                    <h4>Gender</h4>
-                    <h4>ProfilePic</h4>
-                    <h4>StartYears</h4>
-                    <h4>EndYears</h4>
-                    <h4>Course</h4>
-                    <h4>LastLogin</h4>
-                    <h4>DateJoined</h4>
-                    <h4>Action</h4>         
-                </div>
-
-
+            <div class="staff_details"> 
+                <p>Student Details</p>
+                <input type="text" placeholder="Search" name="search_staff">
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
-        </div>
+            <div class="staff_tabel">
+                 <table>
+                     <tr>
+                         <th>ID</th>
+                         <th>First Name</th>
+                         <th>Last Name</th>
+                         <th>Username</th>
+                         <th class="mail">Email</th>
+                         <th>Address</th>
+                         <th>Gender</th>
+                         <th>Start Year</th>
+                         <th>End Year</th>
+                         <th>Action</th>
+                     </tr>
+                 </table>
+            </div>
+         </div>
 
 
     </section>
