@@ -5,7 +5,8 @@
 }
 .container .login_flex{
     display: flex;
-    background-image: linear-gradient(to right,rgb(146, 177, 68),rgba(17, 179, 31, 0.767),rgb(10, 134, 21));
+    /* background-image: linear-gradient(to right,rgb(146, 177, 68),rgba(17, 179, 31, 0.767),rgb(10, 134, 21)); */
+    background-color:#577494 ;
     color: white;
     padding: 10px 25px;
 }
@@ -15,7 +16,7 @@
 .container .login_flex a{
     font-family: roboto;
     text-decoration: none;
-    background-color: rgb(66, 121, 59);
+    background-color: #2261a5;
     color: #fff;
     font-size: 17px;
     padding: 10px 25px;
