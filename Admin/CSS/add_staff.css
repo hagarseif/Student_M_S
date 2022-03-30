@@ -2,7 +2,7 @@
 .home .statistics{
     background-color: #eee;
     min-height: 100vh;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .home .statistics .stu_result{
     margin-left: 20px;
@@ -60,4 +60,7 @@
     display: inline;
     width: 20px;
    
+}
+.log_out{
+    display: flex;
 }
