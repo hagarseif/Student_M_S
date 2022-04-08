@@ -77,7 +77,7 @@
 .home .statistics .report_tabel table td{
     padding:15px 20px;
     border-top: 1px solid #eee;
-
+    width:1px;
 }
 .home .statistics .report_tabel table .mail{
     padding:15px 43px;
