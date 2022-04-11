@@ -27,9 +27,9 @@
 .dashboard .icon-admin h4{
     margin-top: 10px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 21px;
     margin-left: 15px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'roboto', sans-serif;
 
 }
 .dashboard ul{
@@ -37,7 +37,7 @@
 }
 .dashboard ul li{
     list-style: none;
-    padding: 20px 10px 20px 30px;
+    padding: 18px 0px 18px 25px;
 }
 .dashboard ul li:hover{
     background-color: #3e3e3f;
@@ -52,6 +52,18 @@
     color: #C2C7D0;
     margin-right: 10px;
 
+}
+.dashboard ul li .down{
+    margin-left: 55px;
+    margin-right: 0;
+}
+.dashboard ul li .down1{
+    margin-left: 40px;
+    margin-right: 0;
+}
+.dashboard ul li .down2{
+    margin-left: 15px;
+    margin-right: 0;
 }
 body{
     display: flex;
