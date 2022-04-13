@@ -70,6 +70,9 @@
     border-collapse: collapse;
 
 }
+.home .statistics .report_tabel{
+    margin-top: 30px;
+}
 .home .statistics .report_tabel table th{
     padding:15px 20px;
     font-size: 20px;
