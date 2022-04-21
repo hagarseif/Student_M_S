@@ -133,7 +133,8 @@ justify-content: space-between;
 .home .statistics .stu_result h3{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
-    color: #007bff;
+    color:black;
+    font-size: 22px;
 }
 .home .statistics .stu_result .view{
     margin-top: 20px;
@@ -169,7 +170,8 @@ justify-content: space-between;
     margin-top: 15px;
     display: inline-block;
     font-family: roboto;
-    font-size: medium;
+    font-size:25px;
+    font-weight: bold;
 }
 .home .statistics .report_tabel table{
     margin-left: 25px;
