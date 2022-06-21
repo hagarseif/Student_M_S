@@ -55,9 +55,10 @@
 }
 body{
     display: flex;
+    justify-content: space-between;
 }
 .home{
-    width: 82%;
+    width: 80%;
     margin-left: 20%;
 }
 .home .head{
